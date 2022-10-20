@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF741A1E28605D12005C8E38 /* NewBoostCourseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF741A1D28605D12005C8E38 /* NewBoostCourseApp.swift */; };
+		EF741A2228605D13005C8E38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF741A2128605D13005C8E38 /* Assets.xcassets */; };
+		EF741A2528605D13005C8E38 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF741A2428605D13005C8E38 /* Preview Assets.xcassets */; };
+		EF741A2728605D13005C8E38 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF741A2628605D13005C8E38 /* Persistence.swift */; };
+		EF741A2A28605D13005C8E38 /* NewBoostCourse.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF741A2828605D13005C8E38 /* NewBoostCourse.xcdatamodeld */; };
+		EF741A3428605D14005C8E38 /* NewBoostCourseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF741A3328605D14005C8E38 /* NewBoostCourseTests.swift */; };
+		EF741A3E28605D14005C8E38 /* NewBoostCourseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF741A3D28605D14005C8E38 /* NewBoostCourseUITests.swift */; };
+		EF741A4028605D14005C8E38 /* NewBoostCourseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF741A3F28605D14005C8E38 /* NewBoostCourseUITestsLaunchTests.swift */; };
+		EF741A4D28605FE0005C8E38 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF741A4C28605FDF005C8E38 /* SwiftUIView.swift */; };
+		EF741A4F286062F0005C8E38 /* MovieData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF741A4E286062F0005C8E38 /* MovieData.swift */; };
+		EF741A5128606411005C8E38 /* MovieDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF741A5028606411005C8E38 /* MovieDataViewModel.swift */; };
+		EF741A54286064DB005C8E38 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = EF741A53286064DB005C8E38 /* Alamofire */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF741A3028605D14005C8E38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF741A1228605D12005C8E38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF741A1928605D12005C8E38;
+			remoteInfo = NewBoostCourse;
+		};
+		EF741A3A28605D14005C8E38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF741A1228605D12005C8E38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF741A1928605D12005C8E38;
+			remoteInfo = NewBoostCourse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF741A1A28605D12005C8E38 /* NewBoostCourse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewBoostCourse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF741A1D28605D12005C8E38 /* NewBoostCourseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBoostCourseApp.swift; sourceTree = "<group>"; };
+		EF741A2128605D13005C8E38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF741A2428605D13005C8E38 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EF741A2628605D13005C8E38 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		EF741A2928605D13005C8E38 /* NewBoostCourse.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NewBoostCourse.xcdatamodel; sourceTree = "<group>"; };
+		EF741A2F28605D14005C8E38 /* NewBoostCourseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewBoostCourseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF741A3328605D14005C8E38 /* NewBoostCourseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBoostCourseTests.swift; sourceTree = "<group>"; };
+		EF741A3928605D14005C8E38 /* NewBoostCourseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewBoostCourseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF741A3D28605D14005C8E38 /* NewBoostCourseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBoostCourseUITests.swift; sourceTree = "<group>"; };
+		EF741A3F28605D14005C8E38 /* NewBoostCourseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBoostCourseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EF741A4C28605FDF005C8E38 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		EF741A4E286062F0005C8E38 /* MovieData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieData.swift; sourceTree = "<group>"; };
+		EF741A5028606411005C8E38 /* MovieDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDataViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF741A1728605D12005C8E38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF741A54286064DB005C8E38 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF741A2C28605D14005C8E38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF741A3628605D14005C8E38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF741A1128605D12005C8E38 = {
+			isa = PBXGroup;
+			children = (
+				EF741A1C28605D12005C8E38 /* NewBoostCourse */,
+				EF741A3228605D14005C8E38 /* NewBoostCourseTests */,
+				EF741A3C28605D14005C8E38 /* NewBoostCourseUITests */,
+				EF741A1B28605D12005C8E38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF741A1B28605D12005C8E38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF741A1A28605D12005C8E38 /* NewBoostCourse.app */,
+				EF741A2F28605D14005C8E38 /* NewBoostCourseTests.xctest */,
+				EF741A3928605D14005C8E38 /* NewBoostCourseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF741A1C28605D12005C8E38 /* NewBoostCourse */ = {
+			isa = PBXGroup;
+			children = (
+				EF741A1D28605D12005C8E38 /* NewBoostCourseApp.swift */,
+				EF741A4C28605FDF005C8E38 /* SwiftUIView.swift */,
+				EF741A4E286062F0005C8E38 /* MovieData.swift */,
+				EF741A5028606411005C8E38 /* MovieDataViewModel.swift */,
+				EF741A2128605D13005C8E38 /* Assets.xcassets */,
+				EF741A2628605D13005C8E38 /* Persistence.swift */,
+				EF741A2828605D13005C8E38 /* NewBoostCourse.xcdatamodeld */,
+				EF741A2328605D13005C8E38 /* Preview Content */,
+			);
+			path = NewBoostCourse;
+			sourceTree = "<group>";
+		};
+		EF741A2328605D13005C8E38 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EF741A2428605D13005C8E38 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EF741A3228605D14005C8E38 /* NewBoostCourseTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF741A3328605D14005C8E38 /* NewBoostCourseTests.swift */,
+			);
+			path = NewBoostCourseTests;
+			sourceTree = "<group>";
+		};
+		EF741A3C28605D14005C8E38 /* NewBoostCourseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF741A3D28605D14005C8E38 /* NewBoostCourseUITests.swift */,
+				EF741A3F28605D14005C8E38 /* NewBoostCourseUITestsLaunchTests.swift */,
+			);
+			path = NewBoostCourseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF741A1928605D12005C8E38 /* NewBoostCourse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF741A4328605D14005C8E38 /* Build configuration list for PBXNativeTarget "NewBoostCourse" */;
+			buildPhases = (
+				EF741A1628605D12005C8E38 /* Sources */,
+				EF741A1728605D12005C8E38 /* Frameworks */,
+				EF741A1828605D12005C8E38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NewBoostCourse;
+			packageProductDependencies = (
+				EF741A53286064DB005C8E38 /* Alamofire */,
+			);
+			productName = NewBoostCourse;
+			productReference = EF741A1A28605D12005C8E38 /* NewBoostCourse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF741A2E28605D14005C8E38 /* NewBoostCourseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF741A4628605D14005C8E38 /* Build configuration list for PBXNativeTarget "NewBoostCourseTests" */;
+			buildPhases = (
+				EF741A2B28605D14005C8E38 /* Sources */,
+				EF741A2C28605D14005C8E38 /* Frameworks */,
+				EF741A2D28605D14005C8E38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF741A3128605D14005C8E38 /* PBXTargetDependency */,
+			);
+			name = NewBoostCourseTests;
+			productName = NewBoostCourseTests;
+			productReference = EF741A2F28605D14005C8E38 /* NewBoostCourseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF741A3828605D14005C8E38 /* NewBoostCourseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF741A4928605D14005C8E38 /* Build configuration list for PBXNativeTarget "NewBoostCourseUITests" */;
+			buildPhases = (
+				EF741A3528605D14005C8E38 /* Sources */,
+				EF741A3628605D14005C8E38 /* Frameworks */,
+				EF741A3728605D14005C8E38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF741A3B28605D14005C8E38 /* PBXTargetDependency */,
+			);
+			name = NewBoostCourseUITests;
+			productName = NewBoostCourseUITests;
+			productReference = EF741A3928605D14005C8E38 /* NewBoostCourseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF741A1228605D12005C8E38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					EF741A1928605D12005C8E38 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					EF741A2E28605D14005C8E38 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = EF741A1928605D12005C8E38;
+					};
+					EF741A3828605D14005C8E38 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = EF741A1928605D12005C8E38;
+					};
+				};
+			};
+			buildConfigurationList = EF741A1528605D12005C8E38 /* Build configuration list for PBXProject "NewBoostCourse" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF741A1128605D12005C8E38;
+			packageReferences = (
+				EF741A52286064DB005C8E38 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = EF741A1B28605D12005C8E38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF741A1928605D12005C8E38 /* NewBoostCourse */,
+				EF741A2E28605D14005C8E38 /* NewBoostCourseTests */,
+				EF741A3828605D14005C8E38 /* NewBoostCourseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF741A1828605D12005C8E38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF741A2528605D13005C8E38 /* Preview Assets.xcassets in Resources */,
+				EF741A2228605D13005C8E38 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF741A2D28605D14005C8E38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF741A3728605D14005C8E38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF741A1628605D12005C8E38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF741A2728605D13005C8E38 /* Persistence.swift in Sources */,
+				EF741A2A28605D13005C8E38 /* NewBoostCourse.xcdatamodeld in Sources */,
+				EF741A4D28605FE0005C8E38 /* SwiftUIView.swift in Sources */,
+				EF741A4F286062F0005C8E38 /* MovieData.swift in Sources */,
+				EF741A1E28605D12005C8E38 /* NewBoostCourseApp.swift in Sources */,
+				EF741A5128606411005C8E38 /* MovieDataViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF741A2B28605D14005C8E38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF741A3428605D14005C8E38 /* NewBoostCourseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF741A3528605D14005C8E38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF741A4028605D14005C8E38 /* NewBoostCourseUITestsLaunchTests.swift in Sources */,
+				EF741A3E28605D14005C8E38 /* NewBoostCourseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF741A3128605D14005C8E38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF741A1928605D12005C8E38 /* NewBoostCourse */;
+			targetProxy = EF741A3028605D14005C8E38 /* PBXContainerItemProxy */;
+		};
+		EF741A3B28605D14005C8E38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF741A1928605D12005C8E38 /* NewBoostCourse */;
+			targetProxy = EF741A3A28605D14005C8E38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EF741A4128605D14005C8E38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF741A4228605D14005C8E38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF741A4428605D14005C8E38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NewBoostCourse/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NewBoostCourse/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = neolabs.NewBoostCourse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF741A4528605D14005C8E38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NewBoostCourse/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NewBoostCourse/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = neolabs.NewBoostCourse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF741A4728605D14005C8E38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = neolabs.NewBoostCourseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewBoostCourse.app/NewBoostCourse";
+			};
+			name = Debug;
+		};
+		EF741A4828605D14005C8E38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = neolabs.NewBoostCourseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewBoostCourse.app/NewBoostCourse";
+			};
+			name = Release;
+		};
+		EF741A4A28605D14005C8E38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = neolabs.NewBoostCourseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NewBoostCourse;
+			};
+			name = Debug;
+		};
+		EF741A4B28605D14005C8E38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = neolabs.NewBoostCourseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NewBoostCourse;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF741A1528605D12005C8E38 /* Build configuration list for PBXProject "NewBoostCourse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF741A4128605D14005C8E38 /* Debug */,
+				EF741A4228605D14005C8E38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF741A4328605D14005C8E38 /* Build configuration list for PBXNativeTarget "NewBoostCourse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF741A4428605D14005C8E38 /* Debug */,
+				EF741A4528605D14005C8E38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF741A4628605D14005C8E38 /* Build configuration list for PBXNativeTarget "NewBoostCourseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF741A4728605D14005C8E38 /* Debug */,
+				EF741A4828605D14005C8E38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF741A4928605D14005C8E38 /* Build configuration list for PBXNativeTarget "NewBoostCourseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF741A4A28605D14005C8E38 /* Debug */,
+				EF741A4B28605D14005C8E38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EF741A52286064DB005C8E38 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EF741A53286064DB005C8E38 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EF741A52286064DB005C8E38 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		EF741A2828605D13005C8E38 /* NewBoostCourse.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EF741A2928605D13005C8E38 /* NewBoostCourse.xcdatamodel */,
+			);
+			currentVersion = EF741A2928605D13005C8E38 /* NewBoostCourse.xcdatamodel */;
+			path = NewBoostCourse.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EF741A1228605D12005C8E38 /* Project object */;
+}
